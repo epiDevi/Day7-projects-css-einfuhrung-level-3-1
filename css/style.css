@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Work Sans;
+    src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Didact Gothic;
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+@font-face {
+    font-family: Fjalla One;
+    src: url("../fonts/FjallaOne-Regular.ttf");
+}
+
+
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Positions */
+.m-l-20{
+    margin-left: 20vw;
+}
+
+.pos-year{
+    padding-top: 115px;
+    
+}
+
+.m-t-10{
+    margin-top: 10vh;
+
+}
+
+.m-r-6{
+    margin-right: 6vw;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+
+/* header */
+
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+header p{
+    margin: 20px auto;
+    font-family: work Sans , Arial, Helvetica, sans-serif;
+    font-size: clamp(0.8rem, 1.25vw,1.5rem);
+}
+
+.h-dig{
+    font-family: Didact Gothic, Arial, Helvetica, sans-serif ;
+    font-size: clamp(2rem, 6.5vw,6.25rem);
+    text-transform: uppercase;
+
+}
+
+header img{
+    width: 67.8vw;
+    height: 1080px;
+}
+
+.h-work{
+    font-family: work Sans , Arial, Helvetica, sans-serif;
+    font-size: clamp(5rem, 10vw,10rem);
+}
+
+
+
+
+
+
+/* main */
+.orbis{
+    background: url("../img/portfolio2.jpg");
+    width: 100vw;
+    height: 826px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.85;
+/*     text-align: left;
+ */}
+.orbis p{
+    display: inline-block;
+    font-family: Work Sans , Arial, Helvetica, sans-serif;
+    font-size: clamp(0.5rem, 2vw, 1.25rem);
+    color: white;
+    
+}
+
+.h-orbis{
+    font-family: Didact Gothic, Arial, Helvetica, sans-serif ;
+    font-size: clamp(2rem, 7vw,7rem);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 51vw;
+}
+/* .btn-container{
+    margin-top: 100px;
+} */
+
+.num{
+    font-size: clamp(5rem, 10vw,10rem);
+    color: rgb(8, 8, 8);
+    opacity: 0.3;
+    font-family: Fjalla One, Arial, Helvetica, sans-serif;
+    margin-left: 77vw;
+}
+
+
+
+.btn-container .btn:hover{
+    background-color: white;
+    color: black;
+}
+.btn-container .btn:hover ~ .num-1 {
+    color: white;
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.roller{
+    background: url("../img/portfolio3.png");
+    width: 100vw;
+    height: 826px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.galito{
+    background: url("../img/portfolio4.jpg");
+    width: 100vw;
+    height: 826px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
