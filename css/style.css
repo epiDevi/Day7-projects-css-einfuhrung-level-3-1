@@ -75,6 +75,7 @@ header img{
 .h-work{
     font-family: work Sans , Arial, Helvetica, sans-serif;
     font-size: clamp(5rem, 10vw,10rem);
+    font-weight: 400;
 }
 
 
@@ -92,20 +93,19 @@ header img{
     background-position: center;
     background-attachment: fixed;
     opacity: 0.85;
+    color: white;
 /*     text-align: left;
  */}
-.orbis p{
+.orbis p , .roller p, .galito p , .tretto p{
     display: inline-block;
     font-family: Work Sans , Arial, Helvetica, sans-serif;
     font-size: clamp(0.5rem, 2vw, 1.25rem);
-    color: white;
     
 }
 
 .h-orbis{
     font-family: Didact Gothic, Arial, Helvetica, sans-serif ;
     font-size: clamp(2rem, 7vw,7rem);
-    color: white;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -134,24 +134,14 @@ header img{
 
 
 
-.btn-container .btn:hover{
+.orbis .btn-container .btn:hover{
     background-color: white;
     color: black;
 }
-.btn-container .btn:hover ~ .num-1 {
+.orbis .btn-container .btn:hover ~ .num-1 {
     color: white;
     opacity: 1; 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .roller{
@@ -162,6 +152,21 @@ header img{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: black!important;
+}
+
+.roller .btn{
+    color: black;
+    border: 1px solid black;
+}
+
+.roller .btn-container .btn:hover{
+    background-color: black;
+    color: white;
+}
+.roller .btn-container .btn:hover ~ .num-2 {
+    color: black;
+    opacity: 1; 
 }
 .galito{
     background: url("../img/portfolio4.jpg");
@@ -171,4 +176,87 @@ header img{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: white;
+}
+
+.galito p{
+    color: gray;
+}
+.galito .num{
+    color: gray;
+}
+
+.galito .btn-container .btn:hover{
+    background-color: white;
+    color: black;
+}
+.galito .btn-container .btn:hover ~ .num-3 {
+    color: white;
+    opacity: 1; 
+}
+
+.tretto{
+    background: url("../img/portfolio5.png");
+    width: 100vw;
+    height: 826px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+
+.tretto p{
+    color: gray;
+}
+.tretto .btn{
+    color: black;
+    border: 1px solid black;
+}
+.tretto .num{
+    color: black;
+    opacity: 0.8;
+}
+
+.tretto .btn-container .btn:hover{
+    background-color: black;
+    color: white;
+}
+.tretto .btn-container .btn:hover ~ .num-4 {
+    
+    opacity: 1; 
+}
+
+.more{
+    background-color: black;
+    width: 100vw;
+    height: 826px;
+    color: white;
+
+}
+.more h1{
+    font-family: Work Sans , Arial, Helvetica, sans-serif;
+    font-size: clamp(5rem, 12vw,11.25rem);
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 100px;
+
+}
+.more p{
+    text-align: left;
+    width: 50%;
+    font-size: clamp(0.8rem, 1.4vw, 2rem);
+    color: gray;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 45vw;
+    line-height: 1.5;
+}
+
+.more a{
+    font-family: Work Sans , Arial, Helvetica, sans-serif;
+    font-size: clamp(1.5rem, 3.75vw,4rem);
+    text-decoration: none;
+    color: white;
+    margin-left: 19vw;
 }
