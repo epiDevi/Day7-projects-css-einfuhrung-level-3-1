@@ -240,17 +240,18 @@ header img{
     font-weight: 400;
     margin-top: 0px;
     padding-top: 100px;
+    letter-spacing: -10px;
 
 }
 .more p{
     text-align: left;
-    width: 50%;
+    width: 44%;
     font-size: clamp(0.8rem, 1.4vw, 2rem);
     color: gray;
     word-spacing: 2px;
     letter-spacing: 1px;
     margin-left: 45vw;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .more a{
@@ -258,5 +259,36 @@ header img{
     font-size: clamp(1.5rem, 3.75vw,4rem);
     text-decoration: none;
     color: white;
-    margin-left: 19vw;
+    margin-left: 18vw;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.contact a{
+    font-family: Didact Gothic, Arial, Helvetica, sans-serif ;
+    font-size: clamp(5rem, 10vw,10rem);
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-top: 100px;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+.herz {
+    font-size: 3rem;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
 }
